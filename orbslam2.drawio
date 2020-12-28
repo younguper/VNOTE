@@ -1,1 +1,108 @@
-<mxfile host="app.diagrams.net" modified="2020-12-28T03:42:52.351Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36" version="13.10.9" etag="4KQCPrMkz1Y8lLZUh08H" type="github"><diagram id="lxvZDZ27zlWYzcz3xYCt">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-28T06:52:09.624Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36" etag="sO8X47mVax0Yq1qsx9hK" version="13.10.9" type="github" pages="2">
+  <diagram id="lxvZDZ27zlWYzcz3xYCt" name="系统层设计">
+    <mxGraphModel dx="1699" dy="987" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4Td4UDFNlJp8tIokVsTj-2" value="读入配置文件&lt;br&gt;" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="202.5" y="119" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4Td4UDFNlJp8tIokVsTj-3" value="创建关键帧数据集" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="202.5" y="219" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4Td4UDFNlJp8tIokVsTj-4" value="创建地图" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="200" y="319" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4Td4UDFNlJp8tIokVsTj-5" value="创建显示线程" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="202.5" y="419" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4Td4UDFNlJp8tIokVsTj-6" value="创建跟踪器，运行在主线程中" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="200" y="518.5" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4Td4UDFNlJp8tIokVsTj-7" value="创建局部地图线程" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="200" y="619" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4Td4UDFNlJp8tIokVsTj-8" value="创建回环检测线程" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="200" y="719" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4Td4UDFNlJp8tIokVsTj-9" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="109" y="129" width="50" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="4Td4UDFNlJp8tIokVsTj-10" value="系统初始化" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontStyle=3;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="6" y="435" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4Td4UDFNlJp8tIokVsTj-11" value="跟踪图像" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="490" y="440" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4Td4UDFNlJp8tIokVsTj-12" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontSize=15;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="650" y="415" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4Td4UDFNlJp8tIokVsTj-13" value="主线程" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontStyle=3;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="715" y="455" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mPR6tEKO0S00q4lMdLB9-1" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;System&lt;/span&gt;::&lt;span style=&quot;color: #dcdcaa&quot;&gt;System&lt;/span&gt;()&lt;/div&gt;&lt;/div&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="128" y="67" width="145" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="mPR6tEKO0S00q4lMdLB9-3" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #4ec9b0&quot;&gt;cv&lt;/span&gt;::&lt;span style=&quot;color: #4ec9b0&quot;&gt;Mat&lt;/span&gt; &lt;span style=&quot;color: #4ec9b0&quot;&gt;System&lt;/span&gt;::&lt;span style=&quot;color: #dcdcaa&quot;&gt;TrackMonocular&lt;/span&gt;()&lt;/div&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="480" y="369" width="280" height="22" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Zdk87yyW7u9ZFRNsK-2M" name="跟踪线程">
+    <mxGraphModel dx="1699" dy="987" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="l__4I01e2sMIbU6zgPrc-0" />
+        <mxCell id="l__4I01e2sMIbU6zgPrc-1" parent="l__4I01e2sMIbU6zgPrc-0" />
+        <mxCell id="mDF1OLlA0JVmVDMx_Z8S-0" value="将图片转换为灰度图" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
+          <mxGeometry x="188.5" y="120" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mDF1OLlA0JVmVDMx_Z8S-1" value="构建Frame" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
+          <mxGeometry x="186" y="200" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mDF1OLlA0JVmVDMx_Z8S-2" value="单目初始化" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
+          <mxGeometry x="400" y="320" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mDF1OLlA0JVmVDMx_Z8S-3" value="根据跟踪模型进行跟踪" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
+          <mxGeometry x="188.5" y="590" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mDF1OLlA0JVmVDMx_Z8S-7" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #4ec9b0&quot;&gt;cv&lt;/span&gt;::&lt;span style=&quot;color: #4ec9b0&quot;&gt;Mat&lt;/span&gt; &lt;span style=&quot;color: #4ec9b0&quot;&gt;Tracking&lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;::&lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;GrabImageMonocular&lt;/span&gt;()&lt;/div&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=15;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
+          <mxGeometry x="827" y="40" width="340" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mDF1OLlA0JVmVDMx_Z8S-8" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;void&lt;/span&gt; &lt;span style=&quot;color: #4ec9b0&quot;&gt;Tracking&lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;::&lt;/span&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;Track&lt;/span&gt;()&lt;/div&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=15;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
+          <mxGeometry x="1400" y="785" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uKH-GYjhjAx6KfosmsIx-0" value="是否完成&lt;br style=&quot;font-size: 12px;&quot;&gt;初始化" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=12;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
+          <mxGeometry x="180.25" y="320" width="141.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l9mHiC_mZI52ioLLAr0m-0" value="运动模型&lt;br style=&quot;font-size: 12px;&quot;&gt;是否为空" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=12;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
+          <mxGeometry x="180.25" y="500" width="141.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l9mHiC_mZI52ioLLAr0m-1" value="跟踪参考帧" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
+          <mxGeometry x="400" y="500" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l9mHiC_mZI52ioLLAr0m-2" value="是否跟踪成功" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=12;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
+          <mxGeometry x="182.75" y="410" width="141.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l9mHiC_mZI52ioLLAr0m-3" value="重定位" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
+          <mxGeometry x="400" y="410" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l9mHiC_mZI52ioLLAr0m-4" value="设置当前帧的参考关键帧" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
+          <mxGeometry x="188.5" y="680" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l9mHiC_mZI52ioLLAr0m-5" value="跟踪局部地图" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
+          <mxGeometry x="188.5" y="770" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l9mHiC_mZI52ioLLAr0m-6" value="判断是否&lt;br&gt;插入关键帧" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
+          <mxGeometry x="191.75" y="950" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l9mHiC_mZI52ioLLAr0m-7" value="更新运动模型" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
+          <mxGeometry x="188.5" y="860" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l9mHiC_mZI52ioLLAr0m-8" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;mVelocity&lt;/span&gt; = &lt;span style=&quot;color: #9cdcfe&quot;&gt;mCurrentFrame&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe&quot;&gt;mTcw&lt;/span&gt;*&lt;span style=&quot;color: #9cdcfe&quot;&gt;LastTwc&lt;/span&gt;;&lt;span style=&quot;color: #6a9955&quot;&gt;  //运动速度  上一帧到这一帧的位姿变换矩阵&lt;/span&gt;&lt;/div&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=12;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
+          <mxGeometry x="840" y="875" width="630" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
