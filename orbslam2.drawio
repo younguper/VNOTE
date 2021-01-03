@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-03T13:54:02.052Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="0VFCJk1aO2v0sIZ-FZEF" version="14.1.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-01-03T14:08:37.624Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="koiW63vb-ZIpmNCgZA2q" version="14.1.3" type="github" pages="3">
   <diagram id="lxvZDZ27zlWYzcz3xYCt" name="系统层设计">
     <mxGraphModel dx="860" dy="452" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -60,10 +60,10 @@
         <mxCell id="mDF1OLlA0JVmVDMx_Z8S-1" value="构建Frame" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="l__4I01e2sMIbU6zgPrc-1" vertex="1">
           <mxGeometry x="55.75" y="320" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="mDF1OLlA0JVmVDMx_Z8S-2" value="单目初始化" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="l__4I01e2sMIbU6zgPrc-1" vertex="1">
+        <mxCell id="mDF1OLlA0JVmVDMx_Z8S-2" value="单目初始化" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="l__4I01e2sMIbU6zgPrc-1" vertex="1">
           <mxGeometry x="269.75" y="440" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="mDF1OLlA0JVmVDMx_Z8S-3" value="根据跟踪模型进行跟踪" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="l__4I01e2sMIbU6zgPrc-1" vertex="1">
+        <mxCell id="mDF1OLlA0JVmVDMx_Z8S-3" value="根据跟踪模型进行跟踪" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="l__4I01e2sMIbU6zgPrc-1" vertex="1">
           <mxGeometry x="58.25" y="710" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="uKH-GYjhjAx6KfosmsIx-0" value="是否完成&lt;br style=&quot;font-size: 12px;&quot;&gt;初始化" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=12;" parent="l__4I01e2sMIbU6zgPrc-1" vertex="1">
@@ -72,7 +72,7 @@
         <mxCell id="l9mHiC_mZI52ioLLAr0m-0" value="运动模型&lt;br style=&quot;font-size: 12px;&quot;&gt;是否为空" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=12;" parent="l__4I01e2sMIbU6zgPrc-1" vertex="1">
           <mxGeometry x="50" y="620" width="141.5" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="l9mHiC_mZI52ioLLAr0m-1" value="跟踪参考帧" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="l__4I01e2sMIbU6zgPrc-1" vertex="1">
+        <mxCell id="l9mHiC_mZI52ioLLAr0m-1" value="跟踪参考帧" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="l__4I01e2sMIbU6zgPrc-1" vertex="1">
           <mxGeometry x="269.75" y="620" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="l9mHiC_mZI52ioLLAr0m-2" value="是否跟踪成功" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=12;" parent="l__4I01e2sMIbU6zgPrc-1" vertex="1">
@@ -145,7 +145,7 @@
           <mxGeometry width="25.8" height="50" as="geometry" />
         </mxCell>
         <mxCell id="0YpRjwljAo3LVK2bpNBL-20" value="" style="group" vertex="1" connectable="0" parent="l__4I01e2sMIbU6zgPrc-1">
-          <mxGeometry x="499.75" y="320" width="100" height="50" as="geometry" />
+          <mxGeometry x="284.75" y="321.25" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="RII0PgrbRyUDJsruOhE7-0" value="Frame" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="0YpRjwljAo3LVK2bpNBL-20">
           <mxGeometry x="20" width="80" height="50" as="geometry" />
@@ -154,13 +154,13 @@
           <mxGeometry width="30" height="50" as="geometry" />
         </mxCell>
         <mxCell id="0YpRjwljAo3LVK2bpNBL-21" value="获得金字塔&lt;br&gt;参数" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
-          <mxGeometry x="1000" y="80" width="130" height="50" as="geometry" />
+          <mxGeometry x="940" y="80" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="0YpRjwljAo3LVK2bpNBL-22" value="提取特征点&lt;br&gt;计算描述子" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
-          <mxGeometry x="1000" y="170" width="130" height="50" as="geometry" />
+          <mxGeometry x="940" y="170" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="0YpRjwljAo3LVK2bpNBL-23" value="Frame" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.delay;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
-          <mxGeometry x="490" y="230" width="100" height="60" as="geometry" />
+          <mxGeometry x="490" y="316.25" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0YpRjwljAo3LVK2bpNBL-24" value="ORBextractor" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.delay;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
           <mxGeometry x="1500" y="135" width="100" height="60" as="geometry" />
@@ -179,6 +179,15 @@
         </mxCell>
         <mxCell id="0YpRjwljAo3LVK2bpNBL-29" value="计算特征点&lt;br&gt;的方向" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
           <mxGeometry x="1290" y="430" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0YpRjwljAo3LVK2bpNBL-31" value="计算特征点的描述子" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
+          <mxGeometry x="1290" y="520" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0YpRjwljAo3LVK2bpNBL-32" value="矫正特征点" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
+          <mxGeometry x="940" y="260" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0YpRjwljAo3LVK2bpNBL-33" value="将图像分配到网格中" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
+          <mxGeometry x="940" y="350" width="130" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
