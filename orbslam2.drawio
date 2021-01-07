@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-03T14:08:37.624Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="koiW63vb-ZIpmNCgZA2q" version="14.1.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-01-07T13:20:32.140Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36" etag="eeETfNylCYRw9FckCp7U" version="14.1.8" type="github" pages="4">
   <diagram id="lxvZDZ27zlWYzcz3xYCt" name="系统层设计">
-    <mxGraphModel dx="860" dy="452" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1982" dy="1152" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -50,153 +50,167 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Zdk87yyW7u9ZFRNsK-2M" name="跟踪线程">
-    <mxGraphModel dx="1433" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2226" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="l__4I01e2sMIbU6zgPrc-0" />
         <mxCell id="l__4I01e2sMIbU6zgPrc-1" parent="l__4I01e2sMIbU6zgPrc-0" />
-        <mxCell id="mDF1OLlA0JVmVDMx_Z8S-0" value="将图片转换为灰度图" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="l__4I01e2sMIbU6zgPrc-1" vertex="1">
-          <mxGeometry x="58.25" y="240" width="130" height="50" as="geometry" />
+        <mxCell id="skUpCr0ONXeMjy6rOeWI-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="l__4I01e2sMIbU6zgPrc-1" source="mDF1OLlA0JVmVDMx_Z8S-0" target="mDF1OLlA0JVmVDMx_Z8S-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mDF1OLlA0JVmVDMx_Z8S-1" value="构建Frame" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="l__4I01e2sMIbU6zgPrc-1" vertex="1">
-          <mxGeometry x="55.75" y="320" width="130" height="50" as="geometry" />
+        <mxCell id="mDF1OLlA0JVmVDMx_Z8S-0" value="将图片转换为灰度图" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="l__4I01e2sMIbU6zgPrc-1" vertex="1">
+          <mxGeometry x="-361.75" y="80" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="skUpCr0ONXeMjy6rOeWI-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="l__4I01e2sMIbU6zgPrc-1" source="mDF1OLlA0JVmVDMx_Z8S-1" target="uKH-GYjhjAx6KfosmsIx-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mDF1OLlA0JVmVDMx_Z8S-1" value="构建Frame" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="l__4I01e2sMIbU6zgPrc-1" vertex="1">
+          <mxGeometry x="-361.75" y="180" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="mDF1OLlA0JVmVDMx_Z8S-2" value="单目初始化" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="l__4I01e2sMIbU6zgPrc-1" vertex="1">
-          <mxGeometry x="269.75" y="440" width="130" height="50" as="geometry" />
+          <mxGeometry x="-150.25" y="280" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="skUpCr0ONXeMjy6rOeWI-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="l__4I01e2sMIbU6zgPrc-1" source="mDF1OLlA0JVmVDMx_Z8S-3" target="l9mHiC_mZI52ioLLAr0m-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mDF1OLlA0JVmVDMx_Z8S-3" value="根据跟踪模型进行跟踪" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="l__4I01e2sMIbU6zgPrc-1" vertex="1">
-          <mxGeometry x="58.25" y="710" width="130" height="50" as="geometry" />
+          <mxGeometry x="-361.75" y="550" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="skUpCr0ONXeMjy6rOeWI-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="l__4I01e2sMIbU6zgPrc-1" source="uKH-GYjhjAx6KfosmsIx-0" target="l9mHiC_mZI52ioLLAr0m-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uKH-GYjhjAx6KfosmsIx-0" value="是否完成&lt;br style=&quot;font-size: 12px;&quot;&gt;初始化" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=12;" parent="l__4I01e2sMIbU6zgPrc-1" vertex="1">
-          <mxGeometry x="50" y="440" width="141.5" height="50" as="geometry" />
+          <mxGeometry x="-367" y="280" width="141.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="skUpCr0ONXeMjy6rOeWI-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="l__4I01e2sMIbU6zgPrc-1" source="l9mHiC_mZI52ioLLAr0m-0" target="mDF1OLlA0JVmVDMx_Z8S-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l9mHiC_mZI52ioLLAr0m-0" value="运动模型&lt;br style=&quot;font-size: 12px;&quot;&gt;是否为空" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=12;" parent="l__4I01e2sMIbU6zgPrc-1" vertex="1">
-          <mxGeometry x="50" y="620" width="141.5" height="50" as="geometry" />
+          <mxGeometry x="-368" y="460" width="141.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="l9mHiC_mZI52ioLLAr0m-1" value="跟踪参考帧" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="l__4I01e2sMIbU6zgPrc-1" vertex="1">
-          <mxGeometry x="269.75" y="620" width="130" height="50" as="geometry" />
+          <mxGeometry x="-150.25" y="460" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="skUpCr0ONXeMjy6rOeWI-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="l__4I01e2sMIbU6zgPrc-1" source="l9mHiC_mZI52ioLLAr0m-2" target="l9mHiC_mZI52ioLLAr0m-0">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l9mHiC_mZI52ioLLAr0m-2" value="是否跟踪成功" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=12;" parent="l__4I01e2sMIbU6zgPrc-1" vertex="1">
-          <mxGeometry x="52.5" y="530" width="141.5" height="50" as="geometry" />
+          <mxGeometry x="-367.5" y="370" width="141.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="l9mHiC_mZI52ioLLAr0m-3" value="重定位" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="l__4I01e2sMIbU6zgPrc-1" vertex="1">
-          <mxGeometry x="269.75" y="530" width="130" height="50" as="geometry" />
+          <mxGeometry x="-150.25" y="370" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="skUpCr0ONXeMjy6rOeWI-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="l__4I01e2sMIbU6zgPrc-1" source="l9mHiC_mZI52ioLLAr0m-4" target="l9mHiC_mZI52ioLLAr0m-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l9mHiC_mZI52ioLLAr0m-4" value="设置当前帧的参考关键帧" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="l__4I01e2sMIbU6zgPrc-1" vertex="1">
-          <mxGeometry x="58.25" y="800" width="130" height="50" as="geometry" />
+          <mxGeometry x="-361.75" y="640" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="skUpCr0ONXeMjy6rOeWI-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="l__4I01e2sMIbU6zgPrc-1" source="l9mHiC_mZI52ioLLAr0m-5" target="l9mHiC_mZI52ioLLAr0m-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l9mHiC_mZI52ioLLAr0m-5" value="跟踪局部地图" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="l__4I01e2sMIbU6zgPrc-1" vertex="1">
-          <mxGeometry x="58.25" y="890" width="130" height="50" as="geometry" />
+          <mxGeometry x="-361.75" y="730" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="l9mHiC_mZI52ioLLAr0m-6" value="判断是否&lt;br&gt;插入关键帧" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="l__4I01e2sMIbU6zgPrc-1" vertex="1">
-          <mxGeometry x="61.5" y="1070" width="130" height="50" as="geometry" />
+          <mxGeometry x="-361.5" y="910" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="skUpCr0ONXeMjy6rOeWI-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="l__4I01e2sMIbU6zgPrc-1" source="l9mHiC_mZI52ioLLAr0m-7" target="l9mHiC_mZI52ioLLAr0m-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l9mHiC_mZI52ioLLAr0m-7" value="更新运动模型" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="l__4I01e2sMIbU6zgPrc-1" vertex="1">
-          <mxGeometry x="58.25" y="980" width="130" height="50" as="geometry" />
+          <mxGeometry x="-361.75" y="820" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="RII0PgrbRyUDJsruOhE7-2" value="特征提取器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
-          <mxGeometry x="686.75" y="160" width="120" height="50" as="geometry" />
+        <mxCell id="0YpRjwljAo3LVK2bpNBL-12" value="计算金字塔&lt;br&gt;参数" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="l__4I01e2sMIbU6zgPrc-1" vertex="1">
+          <mxGeometry x="1270" y="80" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0YpRjwljAo3LVK2bpNBL-1" value="ORB字典" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
-          <mxGeometry x="686.75" y="320" width="120" height="50" as="geometry" />
+        <mxCell id="0YpRjwljAo3LVK2bpNBL-16" value="计算特征&lt;br&gt;方向参数" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="l__4I01e2sMIbU6zgPrc-1" vertex="1">
+          <mxGeometry x="1270" y="160" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0YpRjwljAo3LVK2bpNBL-2" value="相机的参数" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
-          <mxGeometry x="686.75" y="80" width="120" height="50" as="geometry" />
+        <mxCell id="0YpRjwljAo3LVK2bpNBL-18" value="" style="group;" parent="l__4I01e2sMIbU6zgPrc-1" vertex="1" connectable="0">
+          <mxGeometry x="870" y="80" width="163" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0YpRjwljAo3LVK2bpNBL-3" value="特征点参数" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
-          <mxGeometry x="686.75" y="240" width="120" height="50" as="geometry" />
+        <mxCell id="0YpRjwljAo3LVK2bpNBL-10" value="" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="0YpRjwljAo3LVK2bpNBL-18" vertex="1">
+          <mxGeometry x="21.733333333333338" width="79.3519379844961" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0YpRjwljAo3LVK2bpNBL-4" value="BOW向量" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
-          <mxGeometry x="686.75" y="400" width="120" height="50" as="geometry" />
+        <mxCell id="0YpRjwljAo3LVK2bpNBL-11" value="" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="0YpRjwljAo3LVK2bpNBL-18" vertex="1">
+          <mxGeometry width="28.265895953757227" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0YpRjwljAo3LVK2bpNBL-5" value="金字塔相关参数" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
-          <mxGeometry x="686.75" y="480" width="120" height="50" as="geometry" />
+        <mxCell id="0YpRjwljAo3LVK2bpNBL-20" value="" style="group" parent="l__4I01e2sMIbU6zgPrc-1" vertex="1" connectable="0">
+          <mxGeometry x="40" y="80" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0YpRjwljAo3LVK2bpNBL-6" value="位姿参数" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
-          <mxGeometry x="686.75" y="560" width="120" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="0YpRjwljAo3LVK2bpNBL-7" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
-          <mxGeometry x="619.75" y="102.5" width="50" height="487.5" as="geometry" />
-        </mxCell>
-        <mxCell id="0YpRjwljAo3LVK2bpNBL-12" value="计算金字塔&lt;br&gt;参数" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
-          <mxGeometry x="1900" y="60" width="130" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="0YpRjwljAo3LVK2bpNBL-13" value="构建金字塔参数" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
-          <mxGeometry x="1680" y="60" width="120" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="0YpRjwljAo3LVK2bpNBL-14" value="提取Fast的阈值" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
-          <mxGeometry x="1680" y="140" width="120" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="0YpRjwljAo3LVK2bpNBL-15" value="每层金字塔的参数" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
-          <mxGeometry x="1680" y="220" width="120" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="0YpRjwljAo3LVK2bpNBL-16" value="计算特征&lt;br&gt;方向参数" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
-          <mxGeometry x="1900" y="140" width="130" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="0YpRjwljAo3LVK2bpNBL-17" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
-          <mxGeometry x="1621" y="80" width="50" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="0YpRjwljAo3LVK2bpNBL-18" value="" style="group;" vertex="1" connectable="0" parent="l__4I01e2sMIbU6zgPrc-1">
-          <mxGeometry x="1180" y="170" width="129" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="0YpRjwljAo3LVK2bpNBL-10" value="" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="0YpRjwljAo3LVK2bpNBL-18">
-          <mxGeometry x="17.2" width="62.8" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="0YpRjwljAo3LVK2bpNBL-11" value="" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="0YpRjwljAo3LVK2bpNBL-18">
-          <mxGeometry width="25.8" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="0YpRjwljAo3LVK2bpNBL-20" value="" style="group" vertex="1" connectable="0" parent="l__4I01e2sMIbU6zgPrc-1">
-          <mxGeometry x="284.75" y="321.25" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="RII0PgrbRyUDJsruOhE7-0" value="Frame" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="0YpRjwljAo3LVK2bpNBL-20">
+        <mxCell id="RII0PgrbRyUDJsruOhE7-0" value="" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="0YpRjwljAo3LVK2bpNBL-20" vertex="1">
           <mxGeometry x="20" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="RII0PgrbRyUDJsruOhE7-1" value="" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="0YpRjwljAo3LVK2bpNBL-20">
+        <mxCell id="RII0PgrbRyUDJsruOhE7-1" value="" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="0YpRjwljAo3LVK2bpNBL-20" vertex="1">
           <mxGeometry width="30" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0YpRjwljAo3LVK2bpNBL-21" value="获得金字塔&lt;br&gt;参数" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
-          <mxGeometry x="940" y="80" width="130" height="50" as="geometry" />
+        <mxCell id="0YpRjwljAo3LVK2bpNBL-21" value="获得金字塔&lt;br&gt;参数" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="l__4I01e2sMIbU6zgPrc-1" vertex="1">
+          <mxGeometry x="500" y="80" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0YpRjwljAo3LVK2bpNBL-22" value="提取特征点&lt;br&gt;计算描述子" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
-          <mxGeometry x="940" y="170" width="130" height="50" as="geometry" />
+        <mxCell id="0YpRjwljAo3LVK2bpNBL-22" value="提取特征点&lt;br&gt;计算描述子" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="l__4I01e2sMIbU6zgPrc-1" vertex="1">
+          <mxGeometry x="500" y="170" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0YpRjwljAo3LVK2bpNBL-23" value="Frame" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.delay;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
-          <mxGeometry x="490" y="316.25" width="100" height="60" as="geometry" />
+        <mxCell id="0YpRjwljAo3LVK2bpNBL-26" value="构建图像&lt;br&gt;金字塔" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="l__4I01e2sMIbU6zgPrc-1" vertex="1">
+          <mxGeometry x="1440" y="80" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0YpRjwljAo3LVK2bpNBL-24" value="ORBextractor" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.delay;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
-          <mxGeometry x="1500" y="135" width="100" height="60" as="geometry" />
+        <mxCell id="0YpRjwljAo3LVK2bpNBL-27" value="栅格化并&lt;br&gt;提取特征点" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="l__4I01e2sMIbU6zgPrc-1" vertex="1">
+          <mxGeometry x="1440" y="170" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0YpRjwljAo3LVK2bpNBL-25" value="构建图像&lt;br&gt;金字塔" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
-          <mxGeometry x="1290" y="70" width="130" height="50" as="geometry" />
+        <mxCell id="0YpRjwljAo3LVK2bpNBL-28" value="为关键点&lt;br&gt;构建四叉树" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="l__4I01e2sMIbU6zgPrc-1" vertex="1">
+          <mxGeometry x="1440" y="260" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0YpRjwljAo3LVK2bpNBL-26" value="构建图像&lt;br&gt;金字塔" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
-          <mxGeometry x="1290" y="160" width="130" height="50" as="geometry" />
+        <mxCell id="0YpRjwljAo3LVK2bpNBL-29" value="计算特征点&lt;br&gt;的方向" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="l__4I01e2sMIbU6zgPrc-1" vertex="1">
+          <mxGeometry x="1440" y="350" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0YpRjwljAo3LVK2bpNBL-27" value="栅格化并&lt;br&gt;提取特征点" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
-          <mxGeometry x="1290" y="250" width="130" height="50" as="geometry" />
+        <mxCell id="0YpRjwljAo3LVK2bpNBL-31" value="计算特征点的描述子" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="l__4I01e2sMIbU6zgPrc-1" vertex="1">
+          <mxGeometry x="1440" y="440" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0YpRjwljAo3LVK2bpNBL-28" value="为关键点&lt;br&gt;构建四叉树" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
-          <mxGeometry x="1290" y="340" width="130" height="50" as="geometry" />
+        <mxCell id="0YpRjwljAo3LVK2bpNBL-32" value="矫正特征点" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="l__4I01e2sMIbU6zgPrc-1" vertex="1">
+          <mxGeometry x="500" y="260" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0YpRjwljAo3LVK2bpNBL-29" value="计算特征点&lt;br&gt;的方向" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
-          <mxGeometry x="1290" y="430" width="130" height="50" as="geometry" />
+        <mxCell id="0YpRjwljAo3LVK2bpNBL-33" value="将图像分配到网格中" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="l__4I01e2sMIbU6zgPrc-1" vertex="1">
+          <mxGeometry x="500" y="350" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0YpRjwljAo3LVK2bpNBL-31" value="计算特征点的描述子" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
-          <mxGeometry x="1290" y="520" width="130" height="50" as="geometry" />
+        <mxCell id="dQbs4PFwC5B39gHK0uTr-6" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Tracking&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ field:&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;当前帧信息&lt;/li&gt;&lt;li&gt;存储关键帧list&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# field:&lt;br&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;相机内参矩阵&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: center&quot;&gt;相机矫正矩阵&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: center&quot;&gt;特征提取器&lt;/span&gt;&lt;/li&gt;&lt;li&gt;ORB词典&lt;/li&gt;&lt;li&gt;初始化器&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: center&quot;&gt;参考关键帧&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: center&quot;&gt;关键帧的数据集&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: center&quot;&gt;局部地图关键帧&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: center&quot;&gt;局部地图地图点&lt;/span&gt;&lt;/li&gt;&lt;li&gt;LocalMapping线程指针&lt;/li&gt;&lt;li&gt;LoopClosing线程指针&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: center&quot;&gt;上一帧和关键帧信息&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: center&quot;&gt;移动模型&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Tracking():&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Track():&amp;nbsp;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
+          <mxGeometry x="-820" y="80" width="220" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="0YpRjwljAo3LVK2bpNBL-32" value="矫正特征点" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
-          <mxGeometry x="940" y="260" width="130" height="50" as="geometry" />
+        <mxCell id="dQbs4PFwC5B39gHK0uTr-7" value="加载相机参数" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
+          <mxGeometry x="-560" y="80" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0YpRjwljAo3LVK2bpNBL-33" value="将图像分配到网格中" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
-          <mxGeometry x="940" y="350" width="130" height="50" as="geometry" />
+        <mxCell id="dQbs4PFwC5B39gHK0uTr-8" value="加载ORB提取&lt;br&gt;相关参数" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
+          <mxGeometry x="-560" y="160" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dQbs4PFwC5B39gHK0uTr-9" value="加载金字塔参数" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
+          <mxGeometry x="-560" y="240" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dQbs4PFwC5B39gHK0uTr-10" value="创建ORB提取器" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
+          <mxGeometry x="-560" y="320" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dQbs4PFwC5B39gHK0uTr-14" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;ORBextractor&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ field:&amp;nbsp;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;存储各层金字塔图像&lt;/li&gt;&lt;li&gt;每层特征点数量&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: center&quot;&gt;每层图像的sigma值&lt;/span&gt;&lt;/li&gt;&lt;li&gt;提取角点的阈值&lt;/li&gt;&lt;/ol&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ ORBextractor():&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ operator():void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
+          <mxGeometry x="1050" y="80" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="RfRAFbgtw3ZVyDxTeMV5-0" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Frame&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ field:&amp;nbsp;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;text-align: center&quot;&gt;相机的参数&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: center&quot;&gt;特征提取器&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: center&quot;&gt;特征点参数&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: center&quot;&gt;ORB字典&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: center&quot;&gt;BOW向量&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: center&quot;&gt;金字塔相关参数&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;span&gt;- field:&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;text-align: center&quot;&gt;位姿参数&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Frame(): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
+          <mxGeometry x="240" y="80" width="160" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="kF_cwFz_vrbQZPAGg7iH-0" value="Gra" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=card;whiteSpace=wrap;size=20;arcSize=12;labelPosition=center;align=center;" vertex="1" parent="l__4I01e2sMIbU6zgPrc-1">
+          <mxGeometry x="-347.25" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="TzNhbIO1NA0erARUe1HP" name="Page-3">
-    <mxGraphModel dx="860" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2378" dy="1382" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="qtLC2wZ9_YkhzmjKhCms-0" />
         <mxCell id="qtLC2wZ9_YkhzmjKhCms-1" parent="qtLC2wZ9_YkhzmjKhCms-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ykzZdYNh5AbZNYS8XJXg" name="Page-4">
+    <mxGraphModel dx="1189" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="-da3MOb2wUoUgLecc0Fy-0" />
+        <mxCell id="-da3MOb2wUoUgLecc0Fy-1" parent="-da3MOb2wUoUgLecc0Fy-0" />
       </root>
     </mxGraphModel>
   </diagram>
