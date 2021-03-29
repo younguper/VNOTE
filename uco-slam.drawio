@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-25T02:19:56.472Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36" etag="irVe7HP8n3af-2e4kzQ6" version="14.1.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-03-29T06:45:45.996Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36" etag="hlIfiRfijpwoI6Q1giNe" version="14.1.8" type="github" pages="4">
   <diagram id="Vp1qFQqZCj5y1xKwd8Ft" name="Page-1">
     <mxGraphModel dx="1357" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -183,7 +183,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sfBJrKEmWXM7_z-Ib0wM" name="Page-4">
-    <mxGraphModel dx="1357" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1131" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="zAQh6VNMJfAs6kk9cgk2-0" />
         <mxCell id="zAQh6VNMJfAs6kk9cgk2-1" parent="zAQh6VNMJfAs6kk9cgk2-0" />
@@ -193,10 +193,10 @@
         <mxCell id="zAQh6VNMJfAs6kk9cgk2-3" value="读图片序列" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="zAQh6VNMJfAs6kk9cgk2-1">
           <mxGeometry x="200" y="120" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="zAQh6VNMJfAs6kk9cgk2-4" value="设置SLAM" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="zAQh6VNMJfAs6kk9cgk2-1">
+        <mxCell id="zAQh6VNMJfAs6kk9cgk2-4" value="设置参数" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="zAQh6VNMJfAs6kk9cgk2-1">
           <mxGeometry x="200" y="319" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="zAQh6VNMJfAs6kk9cgk2-5" value="创建显示线程" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="zAQh6VNMJfAs6kk9cgk2-1">
+        <mxCell id="zAQh6VNMJfAs6kk9cgk2-5" value="处理图像" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="zAQh6VNMJfAs6kk9cgk2-1">
           <mxGeometry x="202.5" y="419" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="zAQh6VNMJfAs6kk9cgk2-6" value="创建跟踪器，运行在主线程中" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="zAQh6VNMJfAs6kk9cgk2-1">
@@ -211,23 +211,80 @@
         <mxCell id="zAQh6VNMJfAs6kk9cgk2-9" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="zAQh6VNMJfAs6kk9cgk2-1">
           <mxGeometry x="109" y="129" width="50" height="630" as="geometry" />
         </mxCell>
-        <mxCell id="zAQh6VNMJfAs6kk9cgk2-10" value="系统初始化" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontStyle=3;fontSize=15;" vertex="1" parent="zAQh6VNMJfAs6kk9cgk2-1">
-          <mxGeometry x="6" y="435" width="90" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="zAQh6VNMJfAs6kk9cgk2-11" value="跟踪图像" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="zAQh6VNMJfAs6kk9cgk2-1">
-          <mxGeometry x="490" y="440" width="130" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="zAQh6VNMJfAs6kk9cgk2-12" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontSize=15;rotation=-180;" vertex="1" parent="zAQh6VNMJfAs6kk9cgk2-1">
-          <mxGeometry x="650" y="415" width="50" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="zAQh6VNMJfAs6kk9cgk2-13" value="主线程" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontStyle=3;fontSize=15;" vertex="1" parent="zAQh6VNMJfAs6kk9cgk2-1">
-          <mxGeometry x="715" y="455" width="60" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="zAQh6VNMJfAs6kk9cgk2-15" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #4ec9b0&quot;&gt;cv&lt;/span&gt;::&lt;span style=&quot;color: #4ec9b0&quot;&gt;Mat&lt;/span&gt; &lt;span style=&quot;color: #4ec9b0&quot;&gt;System&lt;/span&gt;::&lt;span style=&quot;color: #dcdcaa&quot;&gt;TrackMonocular&lt;/span&gt;()&lt;/div&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=15;" vertex="1" parent="zAQh6VNMJfAs6kk9cgk2-1">
-          <mxGeometry x="480" y="369" width="280" height="22" as="geometry" />
+        <mxCell id="zAQh6VNMJfAs6kk9cgk2-10" value="主程序" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontStyle=3;fontSize=15;" vertex="1" parent="zAQh6VNMJfAs6kk9cgk2-1">
+          <mxGeometry x="21" y="435" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Z-Hhw8XXLIz_1JkUijVe-0" value="Ｍonocular_SLAM" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=card;whiteSpace=wrap;size=20;arcSize=12;labelPosition=center;align=center;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="zAQh6VNMJfAs6kk9cgk2-1">
           <mxGeometry x="30" y="10" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BHIiK-nxr9ir1q9Loj2I-0" value="" style="group" vertex="1" connectable="0" parent="zAQh6VNMJfAs6kk9cgk2-1">
+          <mxGeometry x="400" y="319" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BHIiK-nxr9ir1q9Loj2I-1" value="" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="BHIiK-nxr9ir1q9Loj2I-0">
+          <mxGeometry x="20" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BHIiK-nxr9ir1q9Loj2I-2" value="" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="BHIiK-nxr9ir1q9Loj2I-0">
+          <mxGeometry width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BHIiK-nxr9ir1q9Loj2I-3" value="加载特征提取器参数" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="zAQh6VNMJfAs6kk9cgk2-1">
+          <mxGeometry x="860" y="319" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BHIiK-nxr9ir1q9Loj2I-4" value="加载地图&lt;br&gt;初始化的参数" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="zAQh6VNMJfAs6kk9cgk2-1">
+          <mxGeometry x="860" y="409" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BHIiK-nxr9ir1q9Loj2I-5" value="创建地图更新线程" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="zAQh6VNMJfAs6kk9cgk2-1">
+          <mxGeometry x="1070" y="319" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BHIiK-nxr9ir1q9Loj2I-6" value="将图像分配到网格中" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="zAQh6VNMJfAs6kk9cgk2-1">
+          <mxGeometry x="1070" y="409" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BHIiK-nxr9ir1q9Loj2I-7" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;System&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ field:&amp;nbsp;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;text-align: center&quot;&gt;相机的参数&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: center&quot;&gt;特征提取器&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: center&quot;&gt;特征点参数&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: center&quot;&gt;ORB字典&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: center&quot;&gt;BOW向量&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: center&quot;&gt;金字塔相关参数&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;span&gt;- field:&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;text-align: center&quot;&gt;位姿参数&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Frame(): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="zAQh6VNMJfAs6kk9cgk2-1">
+          <mxGeometry x="600" y="319" width="160" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="I5hC1_WA5iR-PujWjIML-0" value="地图是否为空" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=12;" vertex="1" parent="zAQh6VNMJfAs6kk9cgk2-1">
+          <mxGeometry x="1064.25" y="499" width="141.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="I5hC1_WA5iR-PujWjIML-1" value="进入跟踪模式" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="zAQh6VNMJfAs6kk9cgk2-1">
+          <mxGeometry x="1070" y="584.5" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="I5hC1_WA5iR-PujWjIML-2" value="进行地图初始化" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="zAQh6VNMJfAs6kk9cgk2-1">
+          <mxGeometry x="1840.75" y="308" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="I5hC1_WA5iR-PujWjIML-3" value="是否允许单帧初始化" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=12;" vertex="1" parent="zAQh6VNMJfAs6kk9cgk2-1">
+          <mxGeometry x="1835" y="409" width="141.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="I5hC1_WA5iR-PujWjIML-4" value="使用二维码初始化" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="zAQh6VNMJfAs6kk9cgk2-1">
+          <mxGeometry x="1840.75" y="518" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="I5hC1_WA5iR-PujWjIML-5" value="设置参考帧" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="zAQh6VNMJfAs6kk9cgk2-1">
+          <mxGeometry x="2124.75" y="409" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="I5hC1_WA5iR-PujWjIML-6" value="两帧初始化" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="zAQh6VNMJfAs6kk9cgk2-1">
+          <mxGeometry x="2124.75" y="518" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="I5hC1_WA5iR-PujWjIML-7" value="使用二维码进行初始化" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="zAQh6VNMJfAs6kk9cgk2-1">
+          <mxGeometry x="2124.75" y="629" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="I5hC1_WA5iR-PujWjIML-8" value="使用keypoints初始化" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="zAQh6VNMJfAs6kk9cgk2-1">
+          <mxGeometry x="2350.75" y="719" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="I5hC1_WA5iR-PujWjIML-9" value="是否允许单帧初始化" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=12;" vertex="1" parent="zAQh6VNMJfAs6kk9cgk2-1">
+          <mxGeometry x="2119" y="719" width="141.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="I5hC1_WA5iR-PujWjIML-11" value="单帧初始化&lt;br&gt;是否成功" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=12;" vertex="1" parent="zAQh6VNMJfAs6kk9cgk2-1">
+          <mxGeometry x="1835" y="629" width="141.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="I5hC1_WA5iR-PujWjIML-12" value="是否跟踪成功" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=12;" vertex="1" parent="zAQh6VNMJfAs6kk9cgk2-1">
+          <mxGeometry x="1064.25" y="690" width="141.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="I5hC1_WA5iR-PujWjIML-13" value="重定位" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="zAQh6VNMJfAs6kk9cgk2-1">
+          <mxGeometry x="1290" y="690" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="I5hC1_WA5iR-PujWjIML-14" value="地图初始化" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="zAQh6VNMJfAs6kk9cgk2-1">
+          <mxGeometry x="1290" y="499" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="I5hC1_WA5iR-PujWjIML-15" value="将当前帧加入到map中" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="zAQh6VNMJfAs6kk9cgk2-1">
+          <mxGeometry x="1070" y="810" width="130" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
