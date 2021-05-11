@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-21T03:45:23.754Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36" etag="ynCMPs4Bw9Yhova1eXYy" version="14.6.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-05-11T01:32:09.817Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36" etag="U0gaIOnCeVA0D61u7yEY" version="14.6.9" type="github" pages="6">
   <diagram id="lxvZDZ27zlWYzcz3xYCt" name="系统层设计">
-    <mxGraphModel dx="1357" dy="777" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1597" dy="728" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -383,150 +383,150 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0RMWQ_f29PuOYrPv_i8X" name="回环检测">
-    <mxGraphModel dx="912" dy="1943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-885" dy="856" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="1RZv_uzkBAp7zejK2ZU2-0" />
         <mxCell id="1RZv_uzkBAp7zejK2ZU2-1" parent="1RZv_uzkBAp7zejK2ZU2-0" />
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-2" value="是否有新的关键帧" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=12;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-2" value="是否有新的关键帧" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=12;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="2600" y="405" width="141.5" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-3" value="计算sim3" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-3" value="计算sim3" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="2605.75" y="625" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-4" value="是否检测到回环" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=12;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-4" value="是否检测到回环" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=12;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="2600" y="515" width="141.5" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-6" value="修正地图" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-6" value="修正地图" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="2605.75" y="725" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-7" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;fontFamily=Helvetica;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-7" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;fontFamily=Helvetica;fillColor=#f8cecc;strokeColor=#b85450;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="2655.75" y="290" width="30" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-8" value="&lt;b style=&quot;font-size: 24px&quot;&gt;&lt;i&gt;LoopClosing::Run()&lt;/i&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-8" value="&lt;b style=&quot;font-size: 24px&quot;&gt;&lt;i&gt;LoopClosing::Run()&lt;/i&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="2540" y="130" width="240" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-9" value="DetectLoop()" style="text;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-9" value="DetectLoop()" style="text;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="2780" y="525" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-12" value="&lt;font style=&quot;font-size: 26px&quot;&gt;DetectLoop()&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-12" value="&lt;font style=&quot;font-size: 26px&quot;&gt;DetectLoop()&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="3080" y="117.5" width="160" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-13" value="从队列中提取出一帧" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-13" value="从队列中提取出一帧" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="3080" y="405" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-14" value="是否刚经历过回环" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=12;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-14" value="是否刚经历过回环" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=12;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="3089.25" y="505" width="141.5" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-15" value="计算当前帧和共视帧的BOW最低得分" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-15" value="计算当前帧和共视帧的BOW最低得分" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="3080" y="610" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-16" value="找出回环候选帧" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-16" value="找出回环候选帧" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="3080" y="720" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-17" value="&lt;font style=&quot;font-size: 16px&quot;&gt;DetectLoopCandidates()&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-17" value="&lt;font style=&quot;font-size: 16px&quot;&gt;DetectLoopCandidates()&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="3330" y="735" width="190" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-18" value="&lt;span style=&quot;font-size: 26px ; text-align: center&quot;&gt;DetectLoopCandidates()&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-18" value="&lt;span style=&quot;font-size: 26px ; text-align: center&quot;&gt;DetectLoopCandidates()&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="3722" y="117.5" width="298" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-19" value="找出与当前帧有公共单词但&lt;br&gt;不包括共视的关键帧" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-19" value="找出与当前帧有公共单词但&lt;br&gt;不包括共视的关键帧" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="3726" y="295" width="290" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-20" value="统计出候选帧与当前帧共有的的最大单词数" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-20" value="统计出候选帧与当前帧共有的的最大单词数" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="3726" y="445" width="290" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-21" value="设定候选帧最小阈值&lt;br&gt;（共有单词数）" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-21" value="设定候选帧最小阈值&lt;br&gt;（共有单词数）" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="3730" y="605" width="290" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-22" value="大于最小回环单词数并且BOW得分大于共视帧的最小得分" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-22" value="大于最小回环单词数并且BOW得分大于共视帧的最小得分" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="3730" y="750" width="290" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-23" value="&lt;font style=&quot;font-size: 15px&quot;&gt;１阶段的候选帧&lt;/font&gt;" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-23" value="&lt;font style=&quot;font-size: 15px&quot;&gt;１阶段的候选帧&lt;/font&gt;" style="shape=card;whiteSpace=wrap;html=1;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="4300" y="270" width="110" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-24" value="&lt;font style=&quot;font-size: 15px&quot;&gt;２阶段候选帧&lt;/font&gt;" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-24" value="&lt;font style=&quot;font-size: 15px&quot;&gt;２阶段候选帧&lt;/font&gt;" style="shape=card;whiteSpace=wrap;html=1;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="4300" y="725" width="110" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-25" value="将候选帧相连的共视帧分为一组&lt;br&gt;并计算最高组得分，同时筛选得分最高的帧作为该组代表" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-25" value="将候选帧相连的共视帧分为一组&lt;br&gt;并计算最高组得分，同时筛选得分最高的帧作为该组代表" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="3730" y="895" width="290" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-26" value="设定候选组最小阈值&lt;br&gt;（BOW组得分）" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-26" value="设定候选组最小阈值&lt;br&gt;（BOW组得分）" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="3726" y="1045" width="290" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-27" value="筛选得分大于最小组BOW阈值的组，并将该组中最高得分的关键帧作为候选帧" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-27" value="筛选得分大于最小组BOW阈值的组，并将该组中最高得分的关键帧作为候选帧" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="3730" y="1195" width="290" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-28" value="&lt;font style=&quot;font-size: 15px&quot;&gt;３阶段候选帧&lt;/font&gt;" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-28" value="&lt;font style=&quot;font-size: 15px&quot;&gt;３阶段候选帧&lt;/font&gt;" style="shape=card;whiteSpace=wrap;html=1;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="4300" y="1170" width="110" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-29" value="&lt;font style=&quot;font-size: 17px&quot;&gt;将所有与当前帧具有公共单词的所有关键帧&lt;br&gt;(不包括与当前关键帧链接共视的关键帧)&lt;br&gt;都设为候选关键帧&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-29" value="&lt;font style=&quot;font-size: 17px&quot;&gt;将所有与当前帧具有公共单词的所有关键帧&lt;br&gt;(不包括与当前关键帧链接共视的关键帧)&lt;br&gt;都设为候选关键帧&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="4300" y="425" width="340" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-30" value="&lt;div&gt;&lt;font face=&quot;helvetica&quot;&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;１. 根据共有单词数来筛选&amp;nbsp; &amp;nbsp;筛选最大共有单词数0.8倍以上的所有关键帧为候选关键帧&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 17px ; font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px ; font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;helvetica&quot;&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;2&amp;nbsp; 根据候选关键帧和当前待回环关键帧之间的BOW得分来筛选候选关键帧(大于阈值minScore得分的关键帧)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-30" value="&lt;div&gt;&lt;font face=&quot;helvetica&quot;&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;１. 根据共有单词数来筛选&amp;nbsp; &amp;nbsp;筛选最大共有单词数0.8倍以上的所有关键帧为候选关键帧&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 17px ; font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px ; font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;helvetica&quot;&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;2&amp;nbsp; 根据候选关键帧和当前待回环关键帧之间的BOW得分来筛选候选关键帧(大于阈值minScore得分的关键帧)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="4300" y="855" width="350" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-32" value="&lt;div&gt;&lt;span style=&quot;font-size: 17px ; font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;根据候选关键帧的前10个共视关键帧的累积回环得分来筛选回环候选关键帧(大于0.75最大累积得分的所有回环候选帧,并将得分大于当&lt;/span&gt;&lt;span style=&quot;font-size: 17px ; font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;前候选关键帧的共视关键帧代替当前候选关键帧)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;helvetica&quot;&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-32" value="&lt;div&gt;&lt;span style=&quot;font-size: 17px ; font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;根据候选关键帧的前10个共视关键帧的累积回环得分来筛选回环候选关键帧(大于0.75最大累积得分的所有回环候选帧,并将得分大于当&lt;/span&gt;&lt;span style=&quot;font-size: 17px ; font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;前候选关键帧的共视关键帧代替当前候选关键帧)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;helvetica&quot;&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="4300" y="1325" width="350" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-33" value="检测候选关键帧的连续性" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-33" value="检测候选关键帧的连续性" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="3080" y="830" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-36" value="ComputeSim3()" style="text;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-36" value="ComputeSim3()" style="text;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="2780" y="635" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-37" value="&lt;font style=&quot;font-size: 26px&quot;&gt;ComputeSim3()&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-37" value="&lt;font style=&quot;font-size: 26px&quot;&gt;ComputeSim3()&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="3060.37" y="1400" width="199.25" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-39" value="当前关键帧和回环候选帧进行特征匹配" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-39" value="当前关键帧和回环候选帧进行特征匹配" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="3080" y="1570" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-40" value="SearchByBoW" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-40" value="SearchByBoW" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="3270" y="1585" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-41" value="构造Sim3求解器，并求解Sim3" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-41" value="构造Sim3求解器，并求解Sim3" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="3080" y="1700" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-42" value="通过Sim3投影得到更多的匹配点" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-42" value="通过Sim3投影得到更多的匹配点" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="3080" y="1830" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-43" value="SearchBySim3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-43" value="SearchBySim3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="3270" y="1845" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-44" value="pSolver-&amp;gt;iterate" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-44" value="pSolver-&amp;gt;iterate" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="3265" y="1715" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-45" value="g2o优化Sim3" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-45" value="g2o优化Sim3" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="3080" y="1960" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-46" value="OptimizeSim3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-46" value="OptimizeSim3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="3270" y="1975" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-47" value="在回环帧的共视帧域，与当前帧匹配找出共视地图点" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-47" value="在回环帧的共视帧域，与当前帧匹配找出共视地图点" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="3080" y="2090" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-50" value="通过Sim3投影得到更多的匹配点" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-50" value="通过Sim3投影得到更多的匹配点" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="3080" y="2250" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-51" value="CorrectLoop()" style="text;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-51" value="CorrectLoop()" style="text;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="2780" y="735" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-52" value="&lt;font style=&quot;font-size: 26px&quot;&gt;CorrectLoop&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
-          <mxGeometry x="3080" y="2560" width="160" height="45" as="geometry" />
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-52" value="&lt;font style=&quot;font-size: 26px&quot;&gt;CorrectLoop&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
+          <mxGeometry x="5150.01" y="117.5" width="160" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-53" value="暂停局部地图优化" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
-          <mxGeometry x="3080" y="2730" width="160" height="50" as="geometry" />
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-53" value="暂停局部地图优化" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
+          <mxGeometry x="5150.01" y="287.5" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-54" value="更新当前帧的共视关系" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
-          <mxGeometry x="3079.99" y="2880" width="160" height="50" as="geometry" />
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-54" value="更新当前帧的共视关系" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
+          <mxGeometry x="5150" y="437.5" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-55" value="取出当前帧的共视关键帧" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
-          <mxGeometry x="3079.99" y="3030" width="160" height="50" as="geometry" />
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-55" value="取出当前帧的共视关键帧" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
+          <mxGeometry x="5150" y="587.5" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-56" value="根据当前帧Sim3结果，更新共视帧的位姿" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
-          <mxGeometry x="3080" y="3180" width="160" height="50" as="geometry" />
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-56" value="根据当前帧Sim3结果，更新共视帧的位姿" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
+          <mxGeometry x="5150.01" y="737.5" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-57" value="根据更新后共视帧的的位姿，跟新地图点" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
-          <mxGeometry x="3080" y="3330" width="160" height="50" as="geometry" />
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-57" value="根据更新后共视帧的的位姿，跟新地图点" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
+          <mxGeometry x="5150.01" y="887.5" width="160" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
