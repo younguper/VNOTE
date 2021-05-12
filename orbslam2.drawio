@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-11T01:32:09.817Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36" etag="U0gaIOnCeVA0D61u7yEY" version="14.6.9" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-05-12T02:57:42.559Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36" etag="257y022x5yBRNlS9IgFS" version="14.6.9" type="github" pages="6">
   <diagram id="lxvZDZ27zlWYzcz3xYCt" name="系统层设计">
     <mxGraphModel dx="1597" dy="728" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -383,7 +383,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0RMWQ_f29PuOYrPv_i8X" name="回环检测">
-    <mxGraphModel dx="-885" dy="856" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="912" dy="1820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="1RZv_uzkBAp7zejK2ZU2-0" />
         <mxCell id="1RZv_uzkBAp7zejK2ZU2-1" parent="1RZv_uzkBAp7zejK2ZU2-0" />
@@ -435,8 +435,8 @@
         <mxCell id="1RZv_uzkBAp7zejK2ZU2-20" value="统计出候选帧与当前帧共有的的最大单词数" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="3726" y="445" width="290" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="1RZv_uzkBAp7zejK2ZU2-21" value="设定候选帧最小阈值&lt;br&gt;（共有单词数）" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
-          <mxGeometry x="3730" y="605" width="290" height="50" as="geometry" />
+        <mxCell id="1RZv_uzkBAp7zejK2ZU2-21" value="设定候选帧最小阈值&lt;br&gt;（共有单词数＝最大单词数*0.8）" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
+          <mxGeometry x="3720" y="605" width="300" height="50" as="geometry" />
         </mxCell>
         <mxCell id="1RZv_uzkBAp7zejK2ZU2-22" value="大于最小回环单词数并且BOW得分大于共视帧的最小得分" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
           <mxGeometry x="3730" y="750" width="290" height="50" as="geometry" />
@@ -526,7 +526,34 @@
           <mxGeometry x="5150.01" y="737.5" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="1RZv_uzkBAp7zejK2ZU2-57" value="根据更新后共视帧的的位姿，跟新地图点" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="1RZv_uzkBAp7zejK2ZU2-1" vertex="1">
-          <mxGeometry x="5150.01" y="887.5" width="160" height="50" as="geometry" />
+          <mxGeometry x="5150" y="865" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sr1DH1RBMCVexU252Ljx-0" value="地图点进行融合" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+          <mxGeometry x="5150.01" y="995" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sr1DH1RBMCVexU252Ljx-2" value="mvpCurrentMatchedPoints" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+          <mxGeometry x="5700" y="900" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sr1DH1RBMCVexU252Ljx-3" value="&lt;span style=&quot;font-size: 15px&quot;&gt;１阶段地图点融合&lt;/span&gt;" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+          <mxGeometry x="5530" y="865" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sr1DH1RBMCVexU252Ljx-4" value="&lt;div&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;如果当前帧的特征点，不仅在localmapping中对应的有地图点，&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;而且在回环共视帧也有对应的地图点，&lt;br&gt;则进行融合，将回环共视帧看到的地图点替换&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+          <mxGeometry x="5530" y="990" width="430" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sr1DH1RBMCVexU252Ljx-5" value="&lt;span style=&quot;font-size: 15px&quot;&gt;２阶段地图点融合&lt;/span&gt;" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+          <mxGeometry x="5530" y="1125" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sr1DH1RBMCVexU252Ljx-6" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;如果当前关键帧的共视帧域，所有的特征点，在回环帧共视域所观测的地图点有投影，&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;则进行融合，将回环共视帧看到的地图点替换&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+          <mxGeometry x="5510" y="1260" width="590" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sr1DH1RBMCVexU252Ljx-7" value="mvpLoopMapPoints" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+          <mxGeometry x="5700" y="1150" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sr1DH1RBMCVexU252Ljx-8" value="对位姿图进行优化" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+          <mxGeometry x="5150" y="1125" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sr1DH1RBMCVexU252Ljx-9" value="&lt;font style=&quot;font-size: 26px&quot;&gt;OptimizeEssentialGraph&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1RZv_uzkBAp7zejK2ZU2-1">
+          <mxGeometry x="6270" y="117.5" width="340" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
