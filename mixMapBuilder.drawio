@@ -1,14 +1,32 @@
-<mxfile host="app.diagrams.net" modified="2021-06-02T09:05:24.688Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36" etag="uV_DmcC6B55GybuFdWGO" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-03T11:11:15.643Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="oPTJOiOKH_BAc0U1tC6S" version="14.7.2" type="github">
   <diagram id="7af0laprpWHryiODikA8" name="Page-1">
-    <mxGraphModel dx="2184" dy="-392" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1769" dy="-642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="SSkEU4zFnp9vtyKQEu0X-1" value="数据处理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="SSkEU4zFnp9vtyKQEu0X-1" value="数据处理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-510" y="1240" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SSkEU4zFnp9vtyKQEu0X-2" value="获取传感器数据" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="1">
+        <mxCell id="SSkEU4zFnp9vtyKQEu0X-2" value="获取传感器数据并根据类型区分数据" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" parent="1" vertex="1">
           <mxGeometry x="-537.5" y="1370" width="225" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="89U7coN5WzWLrx9k5VoA-1" value="boost::shared_ptr&lt;BaseSensorDeviceData&gt; base_device_ptr = getDeviceDataPtr(data_list_size);" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-613" y="1340" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="89U7coN5WzWLrx9k5VoA-2" value="处理激光数据" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-537.5" y="1480" width="225" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="89U7coN5WzWLrx9k5VoA-3" value="image = cam_sensor_data-&gt;_image.clone();" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-543" y="1570" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="89U7coN5WzWLrx9k5VoA-4" value="处理图像数据" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-537.5" y="1600" width="225" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="89U7coN5WzWLrx9k5VoA-5" value="cur_frame_ref_vec = laser2d_sensor_data-&gt;_refVec;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-568" y="1450" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="89U7coN5WzWLrx9k5VoA-6" value="添加激光帧节点" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.2;arcSize=6;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-537.5" y="1704" width="225" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
